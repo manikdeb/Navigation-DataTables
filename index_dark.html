@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_dark_theme.css" rel="stylesheet">
+
+    <title>Just Go</title>
+  </head>
+  <body>
+    <div class="container-fluid sizing">
+        <!-- START MAIN -->
+        <div class="main">
+            <div class="navigation__mobile">
+                <div class="navigation__mobile__inner">
+                    <button  class="navigation__mobile__inner-btn" id="openNavigation">
+                        <span class="link-icon"><i class="fas fa-bars"></i></span>
+                    </button> 
+                </div>
+            </div>
+
+            <!-- START NAVIGATION -->
+            <div class="navigation">
+                <section class="close__navigation">
+                    <button class="close__navigation-btn" id="closeNavigation">
+                        <span class="close-icon"><i class="fas fa-times"></i></span>
+                    </button>
+                </section>
+                <section class="main__navigation">
+                    <div class="main__navigation__wrapper">
+                        <div class="">
+                            <a href="#" class="main__navigation__wrapper--item" id="openSubNavigation"> 
+                                <span class="link-icon"><i class="fas fa-bars"></i></span> 
+                            </a>
+                        </div>
+                        <div class="main__navigation__wrapper-top">
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <img src="images/profile.jfif" alt="profile_pic" class="profile-pic">
+                            </a>
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <span class="link-icon"><i class="fas fa-shopping-cart"></i></span>
+                                <span class="notification">1</span>
+                            </a>
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <hr class="horizontal-line">
+                            </a>
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <span class="link-icon"><i class="far fa-star"></i></span>
+                            </a>
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <span class="link-icon"><i class="fas fa-search"></i></span>
+                            </a>
+                        </div>
+                        <div class="main__navigation__wrapper-bottom">
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <span class="link-icon"><i class="fas fa-tools"></i></span>
+                            </a>
+                            <a href="#" class="main__navigation__wrapper--item"> 
+                                <span class="link-icon"><i class="far fa-question-circle"></i></span>
+                            </a>
+                        </div>
+                        <div class="main__navigation__wrapper-popup">
+                            <button class="main__navigation__wrapper-popup-btn" id="popupBtn">
+                                <span class="collapse-icon"><i class="fas fa-ellipsis-h"></i></span>
+                            </button>
+                            <div class="popup__body">
+                                <div class="popup__body__inner">
+                                    <a href="#" class="item"> 
+                                        <span class="link-icon"><i class="fas fa-tools"></i></span>
+                                    </a>
+                                    <a href="#" class="item"> 
+                                        <span class="link-icon"><i class="far fa-question-circle"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end main navigation wrapper -->
+                </section>
+                <section class="sub__navigation">
+                    <div class="sub__navigation__inner">
+                        <div class="sub__navigation__top">
+                            <div class="sub__navigation__top__inner">
+                                <img src="Images/top.png" alt="" class="logo-top-pic">
+                            </div>
+                        </div>
+                        <div class="sub__navigation__middle">
+                            <ul>
+                                <h6><span class="title"><i class="fas fa-cubes"></i></span> Club & Regions</h6>
+                                <li>
+                                    <a href="#">Profile</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="active">Affiliation</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Credentials</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <h6><span class="title"><i class="fas fa-users"></i></span> Members</h6>
+                                <li class="">
+                                    <a href="#">Member Overview</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Renewal Due</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Coaches</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Pending Transfer</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Import</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <h6><span class="title"><i class="far fa-calendar-alt"></i></span> Events & Courses</h6>
+                                <li class="">
+                                    <a href="#">Events Overview</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Coaching Events</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <h6><span class="title"><i class="fas fa-dollar-sign"></i></span> Finace</h6>
+                                <li class="">
+                                    <a href="#">Payment Summary</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Subscriptions</a>
+                                </li>
+                                <li class="">
+                                    <a href="#">Instalments</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sub__navigation__bottom">
+                            <div class="sub__navigation__bottom__inner">
+                                <img src="Images/bottom.png" alt="" class="logo-bottom-pic">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end sub navigation wrapper -->
+                </section>
+            </div>
+            <!-- END NAVIGATION -->
+
+            <!-- START CONTENT -->
+            <div class="content">
+                <div class="container-fluid">
+                    <h3 class="content__wrapper-title">Club Members Overview</h3>
+                    <p>Basic members overview display, this board shows all members along with a column for each of the main memberships in the system.<br>
+                    The status represents weather they have active NGB membership</p>
+                </div>
+            </div>
+            <!-- END CONTENT -->
+
+        </div>
+        <!-- END MAIN -->
+    </div>
+
+    <!-- START JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#closeNavigation").click(function(){
+                $(".navigation").hide();
+            });
+            $("#openNavigation").click(function(){
+                $(".navigation").css("display", "flex");
+            });
+            $("#popupBtn").click(function(){
+                $(".popup__body").toggle();
+            });
+        });
+    </script>
+    <!-- END JS -->
+  </body>
+</html>

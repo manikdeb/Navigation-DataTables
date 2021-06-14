@@ -1,0 +1,15 @@
+/*------------------------ COLOR START------------------------*/
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #e01838;
+    --success-color: #000000;
+    --font-color-1: #888888;
+    --font-color-2: #212529;
+    --font-color-3: #ffffff;
+    --danger-color: #e01838; 
+}
+/*------------------------ COLOR END------------------------*/
+
+.notification {
+    background-color: var(--success-color);
+}
